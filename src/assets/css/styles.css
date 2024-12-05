@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    max-width: 100%;
+    padding: 0 24px;
+}
+.d-block {
+    display: block !important;
+}
