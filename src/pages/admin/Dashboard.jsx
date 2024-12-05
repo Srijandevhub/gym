@@ -26,12 +26,12 @@ const Dashboard = () => {
             <div className="container-fluid">
                 <div className={styles.topBar}>
                     <h1>Dashboard</h1>
-                    <div className={styles.topBarText}>{currentDate.getDate().toString().padStart(2, 0)}-{(currentDate.getMonth() + 1).toString().padStart(2, 0)}-{currentDate.getFullYear()} {days[currentDate.getDay()]} <span>{(currentDate.getHours() % 12).toString().padStart(2, 0)}:{currentDate.getMinutes().toString().padStart(2, 0)} {currentDate.getHours() > 12 ? 'PM' : 'AM'}</span></div>
+                    <div className={styles.topBarText}>{currentDate.getDate().toString().padStart(2, 0)}-{(currentDate.getMonth() + 1).toString().padStart(2, 0)}-{currentDate.getFullYear()} {days[currentDate.getDay()]}</div>
                 </div>
                 <div className="row">
                     <div className="col-xxl-9 col-xl-8">
                         <div className="row">
-                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-6">
+                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-12">
                                 <div className={styles.widgetBox}>
                                     <div className={styles.widgetHeader}>
                                         <div className={styles.widgetHeading}>Daily Sales</div>
@@ -48,7 +48,7 @@ const Dashboard = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-6">
+                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-12">
                                 <div className={styles.widgetBox}>
                                     <div className={styles.widgetHeader}>
                                         <div className={styles.widgetHeading}>Monthly Sales</div>
@@ -65,7 +65,7 @@ const Dashboard = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-6">
+                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-12">
                                 <div className={styles.widgetBox}>
                                     <div className={styles.widgetHeader}>
                                         <div className={styles.widgetHeading}>Yearly Sales</div>
@@ -82,7 +82,7 @@ const Dashboard = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-6">
+                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-12">
                                 <div className={styles.widgetBox}>
                                     <div className={styles.widgetHeader}>
                                         <div className={styles.widgetHeading}>Members Added Daily</div>
@@ -99,7 +99,7 @@ const Dashboard = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-6">
+                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-12">
                                 <div className={styles.widgetBox}>
                                     <div className={styles.widgetHeader}>
                                         <div className={styles.widgetHeading}>Members Added Monthly</div>
@@ -116,7 +116,7 @@ const Dashboard = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-6">
+                            <div className="col-xxl-4 col-xl-6 col-md-6 col-sm-6 col-12">
                                 <div className={styles.widgetBox}>
                                     <div className={styles.widgetHeader}>
                                         <div className={styles.widgetHeading}>Members Added Yearly</div>

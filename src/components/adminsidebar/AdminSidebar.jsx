@@ -34,9 +34,9 @@ const AdminSidebar = ({ active, menuActive }) => {
                 <div className={styles.sidebarHeading}>Accounts</div>
                 <ul className={styles.sidebarMenu}>
                     <li className={styles.sidebarList}>
-                        <Link to="/admin/users" className={`${styles.sidebarLink} ${menuActive === 'users' ? `${styles.active}` : ''}`}>
-                            <i className="fa-solid fa-user"></i>
-                            <span className={styles.linkText}>Users</span>
+                        <Link to="/admin/accounts" className={`${styles.sidebarLink} ${menuActive === 'accounts' ? `${styles.active}` : ''}`}>
+                            <i className="fa-solid fa-file-invoice-dollar"></i>
+                            <span className={styles.linkText}>Accounts</span>
                         </Link>
                     </li>
                 </ul>

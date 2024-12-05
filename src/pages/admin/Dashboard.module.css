@@ -169,3 +169,8 @@
     left: 20px;
     font-size: 12px;
 }
+@media only screen and (max-width: 1400px) {
+    .widgetAmount {
+        font-size: 30px;
+    }
+}

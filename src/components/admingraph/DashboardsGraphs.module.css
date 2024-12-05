@@ -1,0 +1,14 @@
+.graphWrapper {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 3px rgba(0,0,0,0.08);
+}
+@media only screen and (max-width: 1199px) {
+    .graphWrapper {
+        height: auto;
+    }
+}

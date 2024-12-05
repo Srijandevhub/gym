@@ -1,0 +1,31 @@
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.topBar h1 {
+    font-size: 20px;
+    font-family: "AdobeClean-Bold";
+    margin: 0;
+}
+.btnList {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 5px;
+}
+.btnPrimary {
+    display: inline-flex;
+    min-height: 40px;
+    min-width: 40px;
+    background-color: #032024;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}

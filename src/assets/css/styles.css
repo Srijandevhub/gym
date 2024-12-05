@@ -12,3 +12,8 @@ body {
 .d-block {
     display: block !important;
 }
+@media only screen and (max-width: 767px) {
+    .container-fluid {
+        padding: 0 15px;
+    }
+}

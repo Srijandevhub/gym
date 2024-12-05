@@ -1,4 +1,5 @@
 import { Line } from 'react-chartjs-2';
+import styles from './DashboardsGraphs.module.css'
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
@@ -59,7 +60,7 @@ const DashboardGraphs = ({ salesData }) => {
         },
     };
     return (
-        <div style={{ width: '100%', height: '500px', marginBottom: "15px", backgroundColor: "#fff", padding: "20px", borderRadius: "5px", boxShadow: '3px 3px 2px 3px rgba(0,0,0,0.08)' }}>
+        <div className={styles.graphWrapper}>
             <Line data={data} options={options} />
         </div>
     )
